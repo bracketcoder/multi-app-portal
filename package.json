@@ -1,0 +1,18 @@
+{
+  "name": "apps-runner",
+  "version": "1.0.0",
+  "description": "Server to run multiple apps on different ports",
+  "main": "unified-server.js",
+  "scripts": {
+    "start": "node unified-server.js",
+    "dev": "node unified-server.js",
+    "build": "node unified-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "keywords": ["express", "multiple-apps", "development"],
+  "author": "",
+  "license": "ISC"
+}
