@@ -96,3 +96,15 @@ public
 *.njsproj
 *.sln
 *.sw?
+
+# Docker
+.dockerignore
+
+# SSL certificates
+ssl/
+*.pem
+*.key
+*.crt
+
+# Nginx
+nginx.conf
